@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basit Hava Durumu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h2>Hava Durumu</h2>
+    
+    <div class="search-box">
+      <input type="text" id="sehirInput" placeholder="Şehir yaz (örn: Gaziantep, Istanbul)...">
+      <button id="araBtn">Ara</button>
+    </div>
+
+    <div id="sonucAlani" class="sonuc" style="display: none;">
+      <h3 id="sehirAdi">Gaziantep</h3>
+      <div class="derece" id="sicaklik">22°C</div>
+      <div class="bilgiler">
+        <p>Rüzgar: <span id="ruzgar">12 km/s</span></p>
+      </div>
+    </div>
+
+    <div id="hataMesaji" class="hata" style="display: none;">
+      Şehir bulunamadı!
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

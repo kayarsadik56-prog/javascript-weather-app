@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #1e293b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: #334155;
+  color: white;
+  padding: 30px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+button {
+  background: #38bdf8;
+  color: #0f172a;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+.sonuc {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.derece {
+  font-size: 42px;
+  font-weight: bold;
+  color: #38bdf8;
+  margin: 10px 0;
+}
+
+.bilgiler p {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.hata {
+  color: #f87171;
+  margin-top: 15px;
+  font-size: 14px;
+}
